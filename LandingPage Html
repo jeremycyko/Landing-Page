@@ -1,0 +1,23 @@
+<!--Boiler Template for HTML-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game of Thrones Quotes</title>
+        </head>
+<body>
+    <!--Section 1 Header-->
+    <header>
+        <div class="Game Of Thrones Logo">Game Of Thrones</div>
+        <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Spoilers</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </header>
+
+<!--Section 2 Main-->
+<h3>This website is awesome</h3>
+<h2>The lion does not concern himself with being overworked</h2>
+
+</body>
