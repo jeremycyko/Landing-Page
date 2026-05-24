@@ -9,8 +9,8 @@ header, .Section-2{
     background-color: #1F2937;
 }
 
-.header, 
-.section-2-content, 
+.Section-2, 
+.Section-2-Container, 
 .info-section,
 .cta-section {
     width: 90%;
@@ -18,4 +18,29 @@ header, .Section-2{
     margin: 0 auto;
     padding-top: 1em;
     padding-bottom: 2.5em;
+}
+
+.Section-2-Content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-logo {
+    color: #F9FAF8;
+    font-size: 1.5rem;
+    font-weight: 900;
+    display: flex;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #E5E7EB;
 }
