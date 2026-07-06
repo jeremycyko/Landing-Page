@@ -44,3 +44,47 @@ a {
     font-size: 1rem;
     color: #E5E7EB;
 }
+
+@media (max-width: 600px) {
+    .header, .info-section, .group, .cta-container {
+        flex-direction: column;
+        gap: 15px;              
+        text-align: center;
+    }
+
+.set {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    
+    ul {
+        justify-content: center; 
+        padding: 0;
+    }
+}
+
+.main-text {
+    max-width: 20ch;
+    color: #F9FAF8;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.lion-define {
+    color: #E5E7EB;
+    font-size: 1.125rem;
+}
+
+.lion-subtext {
+    color: #E5E7Eb;
+    font-style: italic;
+    font-size: 0.9rem;
+    padding-bottom: 8px;
+}
+
+.button-container {
+    padding-top: 0.5em;
+}
